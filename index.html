@@ -18,19 +18,19 @@
         <nav class="header-menu">
             <ul class="header-menu-list">
                 <li class="header-menu-item">
-                    <a href="/" class="header-menu-link">О&nbsp;компании</a>
+                    <a href="#about" class="header-menu-link">О&nbsp;компании</a>
                 </li>
                 <li class="header-menu-item">
                     <a href="/" class="header-menu-link is-current">Каталог</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="/" class="header-menu-link">Услуги</a>
+                    <a href="#services" class="header-menu-link">Услуги</a>
                 </li>
                 <li class="header-menu-item">
                     <a href="/" class="header-menu-link">Прайс</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="/" class="header-menu-link">Контакты</a>
+                    <a href="#contacts" class="header-menu-link">Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -40,12 +40,14 @@
 
     <main class="content">
         <h1 class="visually-hidden">ООО "УПТК Энергетик"</h1>
-        <section class="about container">
-            <h2 class="about-heading">О компании</h2>
-            <div class="about-container">
-                <div class="about-left">
-                    <p class="about-company-name">Универсальная <br>производственно-торговая <br>компания Энергетик</p>
-                    <p class="about-short">Основное направление деятельности - производство высококачественных
+        <section id="about" class="container">
+            <h2 class="section-heading">О компании</h2>
+            <div class="about-description">
+                <div>
+                    <p class="about-description-company-name">Универсальная <br>производственно-торговая <br>компания
+                        Энергетик</p>
+                    <p class="about-short section-description">Основное направление деятельности - производство
+                        высококачественных
                         металлоконструкций: опоры к ПИ-трубам, раструбы, заглубленные контейнеры, контейнеры для стекла,
                         а также специализированные прицепы.</p>
                     <div class="about-spoiler gradient-background">
@@ -90,7 +92,7 @@
                         <button class="about-spoiler-button" type="button">Читать историю полностью ↓</button>
                     </div>
                 </div>
-                <div class="about-right">
+                <div>
                     <ul class="about-image-list">
                         <li class="about-image-element">
                             <img class="about-image" src="/images/about/1.png" alt="Куча скользящих опор.">
@@ -118,6 +120,148 @@
                 </div>
             </div>
         </section>
+        <section id="services" class="container">
+            <h2 class="services-heading section-heading">Услуги</h2>
+            <p class="services-description section-description"><strong>ООО "УПТК ЭНЕРГЕТИК"</strong> специализируется
+                на предоставлении
+                ряда услуг, связанных с обработкой металла. При изготовлении металлоконструкций, необходимых заказчику,
+                обычно выполняется целый комплекс работ различной сложности</p>
+            <ul class="service-card-list">
+                <li class="service-card-item gradient-background gradient-background">
+                    <img src="/images/service-card/1.png" alt="Процесс резки металла плазменным резаком"
+                        class="service-card-image">
+                    <h3 class="service-card-name">Резка металла</h3>
+                    <p class="service-card-description">При изготовлении конструкций используются металлические листы,
+                        проволока, арматура. Резка и раскрой металла позволяют изготовить элементы точных размеров,
+                        которые в дальнейшем подвергаются сварке и соединяются в целостную конструкцию. При этом
+                        используются различные технологии: лазерная, гидроабразивная, плазменная резка и пр. Выбор
+                        метода резки зависит от того, какой используется металл, каковы требования к качеству швов и
+                        сколько операций резки необходимо выполнить.</p>
+                    <button class="service-card-details-button unfold-button" type="button">Подробнее</button>
+                </li>
+                <li class="service-card-item gradient-background">
+                    <img src="/images/service-card/2.png" alt="Процесс гибки металла на листогибочном станке."
+                        class="service-card-image">
+                    <h3 class="service-card-name">Гибка металла</h3>
+                    <p class="service-card-description">Гибка может служить альтернативой резке металла, поэтому нередко
+                        ее заменяет. В тех случаях, когда можно не резать металл, а согнуть его, отпадает необходимость
+                        в совершении дополнительных операций по сварке. Кроме того, металл после гибки сохраняет
+                        надежность гораздо лучше, чем после резки и дальнейшей сварки. Для гибки металлических изделий
+                        применяются специальные листогибы.</p>
+                    <button class="service-card-details-button unfold-button" type="button">Подробнее</button>
+                </li>
+                <li class="service-card-item gradient-background">
+                    <img src="/images/service-card/3.png" alt="Мужчина сваривает металлическую деталь."
+                        class="service-card-image">
+                    <h3 class="service-card-name">Сварка металла</h3>
+                    <p class="service-card-description">Для соединения металлических элементов применяется сварка:
+                        электрическая, газоэлектрическая, плазменная, электрозвуковая. Способ сварки выбирается в
+                        зависимости от используемых материалов и требований, предъявляемых к конструкциям. При этом
+                        важно обеспечить герметичность шва.</p>
+                    <button class="service-card-details-button unfold-button" type="button">Подробнее</button>
+                </li>
+                <li class="service-card-item gradient-background">
+                    <img src="/images/service-card/4.png" alt="Процесс шлифовки металлической детали."
+                        class="service-card-image">
+                    <h3 class="service-card-name">Шлифовка металла</h3>
+                    <p class="service-card-description">После сварки отдельных элементов конструкции нередко приходится
+                        обрабатывать швы, так как места соединения больше всего подвержены коррозии, накапливают
+                        различные загрязнители. Шлифовка позволяет избавиться от этих проблем, не прибегая к применению
+                        химических реактивов. Данный вид металлообработки также применяется перед хромированием,
+                        покраской, лакированием поверхности.</p>
+                    <button class="service-card-details-button unfold-button" type="button">Подробнее</button>
+                </li>
+                <!-- <li class="service-card-item gradient-background">
+                    <img src="/images/service-card/5.png" alt="Фрезерная насадка и металлическая стружка." class="service-card-image">
+                    <h3 class="service-card-name">Фрезерование металла</h3>
+                    <p class="service-card-description">С помощью фрезерных станков выполняются разноплановые работы по
+                        металлообработке: сверление, разметка, расточка, непосредственно фрезерование.</p>
+                    <button class="service-card-details-button unfold-button" type="button">Подробнее</button>
+                </li> -->
+                <li class="service-card-item gradient-background">
+                    <img src="/images/service-card/6.png" alt="" class="service-card-image">
+                    <h3 class="service-card-name">Токарная обработка</h3>
+                    <p class="service-card-description">Данный вид работ предусматривает выполнение черновой и финишной
+                        обработки деталей цилиндрической формы, нарезание внутренней и наружной резьбы в соответствии с
+                        заданными параметрами. Также с помощью токарной обработки изготавливаются валы, шестеренки и
+                        другие сложные детали.</p>
+                    <button class="service-card-details-button unfold-button" type="button">Подробнее</button>
+                </li>
+                <li class="service-card-item gradient-background">
+                    <img src="/images/service-card/7.png" alt="" class="service-card-image">
+                    <h3 class="service-card-name">Покраска изделий</h3>
+                    <p class="service-card-description">Нанесение стойких защитных покрытий на подготовленную
+                        металлическую поверхность (в том числе после шлифовки). Обеспечивает долговечность конструкции,
+                        устойчивость к износу и современный внешний вид. Доступна широкая гамма оттенков по
+                        международной цветовой шкале RAL.</p>
+                    <button class="service-card-details-button unfold-button" type="button">Подробнее</button>
+                </li>
+            </ul>
+        </section>
+        <section id="contacts" class="container">
+            <h2 class="section-heading">Контакты</h2>
+            <div class="contacts-container">
+                <div class="contacts-info gradient-background">
+                    <ul>
+                        <li>
+                            <h3 class="contacts-address-heading">Наш адрес</h3>
+                            <div class="contacts-address-body">
+                                <p>РБ, 212008, г. Могилев, пер. 4-й Мечникова, 17.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="contacts-howtofind-heading">Как нас найти</h3>
+                            <div class="contacts-howtofind-body">
+                                <p>На общественном транспорте из города нужно доехать до остановки "Дворец гимнастики". <br>
+                                    Маршрутное такси № 1, 2, 3, 8, 35, автобус № 1, 7, троллейбус №2.
+                                    <br>
+                                    <a href="./images/contacts/scheme.jpg">Схема проезда.</a>
+                                </p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="contacts-phone-heading">Телефоны</h3>
+                            <div class="contacts-phone-body">
+                                <div class="contacts-phone-icon"></div>
+                                <div class="contacts-phone-departments">
+                                    <p>
+                                        Сбыт, маркетинг <br>
+                                        Бухгалтерия <br>
+                                        GSM
+                                    </p>
+                                </div>
+                                <div class="contacts-phone-phones">
+                                    <p>
+                                        <a href="tel:+375222728774">+375 (222) 728 774</a> , <a href="+375222750724">750-724</a> <br>
+                                        <a href="tel:+375222728198">+375 (222) 728 198</a> <br>
+                                        <a href="tel:+375296229209">+375 (29) 622 92 09</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="contacts-email-heading">E-mail</h3>
+                            <div class="contacts-email-body">
+                                <div class="contacts-email-icon"></div>
+                                <p>energer@mail.ru</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contacts-map gradient-background">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d586.9492990940258!2d30.355345270423314!3d53.95310989303322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d04e2d95e1d49d%3A0xed3507dc1441df18!2z0K3QvdC10YDQs9C10YLQuNC6INCj0J_QotCaINCe0J7Qng!5e0!3m2!1sru!2snl!4v1792340861196!5m2!1sru!2snl"
+                        width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+                <div class="contacts-building-image-container gradient-background">
+                    <img class="contacts-building-image" src="./images/contacts/1.png" alt="Фото фасада здания компании." class="building-image">
+                </div>
+            </div>
+        </section>
+
     </main>
 
 </body>
